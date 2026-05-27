@@ -1,0 +1,12 @@
+#!name=Google NCR - All Regions
+#!desc=将 Google 所有国家/地区域名重定向至 google.com，覆盖 google.cn/co.jp/com.hk 等全部格式
+
+[URL Rewrite]
+# Google 搜索：所有国家域名 → google.com（排除 google.com 本身）
+^https?:\/\/(www\.)?google\.(?!com(?:$|\/))(?:[a-z]{2,3}\.)?[a-z]{2,3} https://www.google.com 302
+
+# Google Maps：所有国家域名 → maps.google.com
+^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|\/))(?:[a-z]{2,3}\.)?[a-z]{2,3} https://maps.google.com 302
+
+[MITM]
+hostname = %APPEND% www.google.*, google.*, maps.google.*, ditu.google.*
