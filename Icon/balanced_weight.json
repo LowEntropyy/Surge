@@ -1,0 +1,102 @@
+{
+  "name": "Surge Icons (Balanced Weight)",
+  "description": "视觉重量/面积平衡优化版图标集 - 澳门及欧盟已补齐，美国/新加坡/台湾无形变",
+  "icons": [
+    {
+      "name": "EU Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/EU_Max.png"
+    },
+    {
+      "name": "EU Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/EU_Pure.png"
+    },
+    {
+      "name": "EU Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/EU_Relay.png"
+    },
+    {
+      "name": "HK Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/HK_Max.png"
+    },
+    {
+      "name": "HK Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/HK_Pure.png"
+    },
+    {
+      "name": "HK Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/HK_Relay.png"
+    },
+    {
+      "name": "JP Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/JP_Max.png"
+    },
+    {
+      "name": "JP Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/JP_Pure.png"
+    },
+    {
+      "name": "JP Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/JP_Relay.png"
+    },
+    {
+      "name": "KR Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/KR_Max.png"
+    },
+    {
+      "name": "KR Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/KR_Pure.png"
+    },
+    {
+      "name": "KR Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/KR_Relay.png"
+    },
+    {
+      "name": "MO Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/MO_Max.png"
+    },
+    {
+      "name": "MO Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/MO_Pure.png"
+    },
+    {
+      "name": "MO Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/MO_Relay.png"
+    },
+    {
+      "name": "ROC Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/ROC_Max.png"
+    },
+    {
+      "name": "ROC Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/ROC_Pure.png"
+    },
+    {
+      "name": "ROC Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/ROC_Relay.png"
+    },
+    {
+      "name": "SG Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/SG_Max.png"
+    },
+    {
+      "name": "SG Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/SG_Pure.png"
+    },
+    {
+      "name": "SG Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/SG_Relay.png"
+    },
+    {
+      "name": "US Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/US_Max.png"
+    },
+    {
+      "name": "US Pure",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/US_Pure.png"
+    },
+    {
+      "name": "US Relay",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Balanced_Weight/US_Relay.png"
+    }
+  ]
+}
