@@ -9,7 +9,7 @@
 ^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|\/))(?:[a-z]{2,3}\.)?[a-z]{2,3} https://maps.google.com 302
 
 # 清理 Safari 搜索追踪参数（仅 client=safari 时触发，不影响 CAPTCHA 验证流程）
-^https?:\/\/(www\.)?google\.com\/search\?(?=.*client=safari)(?:.*&)?q=([^&]+).* https://www.google.com/search?q=$2 302
+# ^https?:\/\/(www\.)?google\.com\/search\?(?=.*client=safari)(?:.*&)?q=([^&]+).* https://www.google.com/search?q=$2 302
 
 [MITM]
 hostname = %APPEND% www.google.*, google.*, maps.google.*, ditu.google.*
