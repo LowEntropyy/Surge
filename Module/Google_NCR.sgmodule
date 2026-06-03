@@ -2,14 +2,15 @@
 #!desc=将 Google 所有国家/地区域名重定向至 google.com，覆盖 google.cn/co.jp/com.hk 等全部格式。同时清理搜索 URL 中的追踪参数
 
 [URL Rewrite]
-# Google 搜索：所有国家域名 → google.com（排除 google.com 本身）
-^https?:\/\/(www\.)?google\.(?!com(?:$|\/))(?:[a-z]{2,3}\.)?[a-z]{2,3} https://www.google.com 302
+# Google search pages: regional domains -> google.com, preserving path/query.
+# Excludes google.com itself and avoids /url redirect wrappers that can recursively nest q= URLs.
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)(?:\?[^#]*)?)?$ https://www.google.com$1 302
 
-# Google Maps：所有国家域名 → maps.google.com
-^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|\/))(?:[a-z]{2,3}\.)?[a-z]{2,3} https://maps.google.com 302
+# Google home pages only: regional domains -> google.com.
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}\/?$ https://www.google.com 302
 
-# 清理 Safari 搜索追踪参数（仅 client=safari 时触发，不影响 CAPTCHA 验证流程）
-# ^https?:\/\/(www\.)?google\.com\/search\?(?=.*client=safari)(?:.*&)?q=([^&]+).* https://www.google.com/search?q=$2 302
+# Google Maps: regional map domains -> maps.google.com, preserving path/query.
+^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/.*)?$ https://maps.google.com$2 302
 
 [MITM]
 hostname = %APPEND% www.google.*, google.*, maps.google.*, ditu.google.*
