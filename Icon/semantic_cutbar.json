@@ -1,102 +1,186 @@
 {
-  "name": "Surge Icons (Semantic Cutbar)",
+  "name": "ESSE",
   "description": "Pure 系列为蓝本的语义切条版：Pure=银白纯净，Relay=蓝色桥接，Max=橙色速度斜纹。",
   "icons": [
     {
+      "name": "Proxy",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Proxy.png"
+    },
+    {
+      "name": "Trace",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Trace.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Apple.png"
+    },
+    {
+      "name": "AI Suite",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/AI_Suite.png"
+    },
+    {
+      "name": "Google",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Google.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Microsoft.png"
+    },
+    {
+      "name": "Finance",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Finance.png"
+    },
+    {
+      "name": "Crypto",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Crypto.png"
+    },
+    {
+      "name": "Meta",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Meta.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Twitter.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Telegram.png"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/PayPal.png"
+    },
+    {
+      "name": "Emby",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Emby.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/YouTube.png"
+    },
+    {
+      "name": "Disney Plus",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Disney_Plus.png"
+    },
+    {
+      "name": "HBO Max",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/HBO_Max.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Netflix.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/TikTok.png"
+    },
+    {
+      "name": "Streaming",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/Streaming.png"
+    },
+    {
+      "name": "UDP",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/UDP.png"
+    },
+    {
+      "name": "AdBlock",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/AdBlock.png"
+    },
+    {
       "name": "EU Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/EU_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/EU_Max.png"
     },
     {
       "name": "EU Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/EU_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/EU_Pure.png"
     },
     {
       "name": "EU Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/EU_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/EU_Relay.png"
     },
     {
       "name": "HK Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/HK_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/HK_Max.png"
     },
     {
       "name": "HK Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/HK_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/HK_Pure.png"
     },
     {
       "name": "HK Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/HK_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/HK_Relay.png"
     },
     {
       "name": "JP Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/JP_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/JP_Max.png"
     },
     {
       "name": "JP Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/JP_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/JP_Pure.png"
     },
     {
       "name": "JP Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/JP_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/JP_Relay.png"
     },
     {
       "name": "KR Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/KR_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/KR_Max.png"
     },
     {
       "name": "KR Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/KR_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/KR_Pure.png"
     },
     {
       "name": "KR Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/KR_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/KR_Relay.png"
     },
     {
       "name": "MO Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/MO_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/MO_Max.png"
     },
     {
       "name": "MO Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/MO_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/MO_Pure.png"
     },
     {
       "name": "MO Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/MO_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/MO_Relay.png"
     },
     {
       "name": "ROC Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/ROC_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/ROC_Max.png"
     },
     {
       "name": "ROC Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/ROC_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/ROC_Pure.png"
     },
     {
       "name": "ROC Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/ROC_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/ROC_Relay.png"
     },
     {
       "name": "SG Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/SG_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/SG_Max.png"
     },
     {
       "name": "SG Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/SG_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/SG_Pure.png"
     },
     {
       "name": "SG Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/SG_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/SG_Relay.png"
     },
     {
       "name": "US Max",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/US_Max.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/US_Max.png"
     },
     {
       "name": "US Pure",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/US_Pure.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/US_Pure.png"
     },
     {
       "name": "US Relay",
-      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Semantic_Cutbar/US_Relay.png"
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Esse/US_Relay.png"
     }
   ]
 }
