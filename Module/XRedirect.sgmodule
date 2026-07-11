@@ -10,16 +10,7 @@
 ^https?:\/\/(?:www\.)?(?:g|google)\.cn(.*)$ https://www.google.com$1 302
 ^https?:\/\/(?:ditu|maps)\.google\.cn(.*)$ https://maps.google.com$1 302
 
-# 归档停用：BiliIntl 菲律宾区域伪装及登录请求改写。
-# 原因：以下规则会把 BiliIntl 请求的 s_locale 强制改为 zh-Hans_PH、sim_code 强制改为
-# 51503（菲律宾 Smart），并要求对 app.biliintl.com 与 passport.biliintl.com 启用
-# HTTPS MITM。现决定不启用任何涉及 Bilibili/B 站的区域伪装、请求改写和 HTTPS
-# 解密；保留原规则仅供追溯，以下内容均已注释且不会生效。
-# 原 BiliIntl app 请求改写。
-# "(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d\/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
-#
-# 原 BiliIntl 登录请求改写。
-# "(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+)" $1&s_locale=zh-Hans_PH$3&sim_code=51503$5 302
+
 
 # ── 常用网站：HTTP 升级与主域名统一 ──
 
@@ -43,6 +34,8 @@
 
 # 网易严选：将 you.163.com 的 HTTP 请求升级到 HTTPS。
 ^http:\/\/you\.163\.com\/ https://you.163.com/ 302
+
+
 
 # ── 软件与服务：中文推广域名或历史品牌域名跳转到厂商官网 ──
 
