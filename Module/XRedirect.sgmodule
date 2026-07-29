@@ -3,9 +3,10 @@
 
 [URL Rewrite]
 # 仅处理 Google 中国域名与地图，并保留路径和查询参数。
-^https?:\/\/(?:www\.)?(?:g|google)\.cn(.*)$ https://www.google.com$1 302
-^https?:\/\/(?:ditu|maps)\.google\.cn(.*)$ https://maps.google.com$1 302
 
+^https?:\/\/(?:www\.)?(?:g|google)\.cn(.*)$ https://www.google.com$1 302
+
+^https?:\/\/(?:ditu|maps)\.google\.cn(.*)$ https://maps.google.com$1 302
 
 
 # ── 常用网站：HTTP 升级与主域名统一 ──
