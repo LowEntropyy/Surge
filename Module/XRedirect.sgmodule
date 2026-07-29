@@ -3,8 +3,8 @@
 
 [URL Rewrite]
 # Google 区域搜索域名跳转到 google.com，并用 gws_rd=cr 阻止地区确认跳转形成循环。
-^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)\?[^#]+)$ https://www.google.com$1&gws_rd=cr 302
-^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp))\/?$ https://www.google.com$1?gws_rd=cr 302
+# ^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)\?[^#]+)$ https://www.google.com$1&gws_rd=cr 302
+# ^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp))\/?$ https://www.google.com$1?gws_rd=cr 302
 
 # Google 中国域名与地图重定向，合并自 QingRex/LoonKissSurge Beta 模块。
 ^https?:\/\/(?:www\.)?(?:g|google)\.cn(.*)$ https://www.google.com$1 302
