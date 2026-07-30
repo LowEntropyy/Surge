@@ -4,13 +4,13 @@
 [URL Rewrite]
 # Google search pages: regional domains -> google.com, preserving path/query.
 # Excludes google.com itself and avoids /url redirect wrappers that can recursively nest q= URLs.
-^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)(?:\?[^#]*)?)?$ https://www.google.com$1 302 #!MACOS-ONLY
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)(?:\?[^#]*)?)?$ https://www.google.com$1 302
 
 # Google home pages only: regional domains -> google.com.
-^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}\/?$ https://www.google.com 302 #!MACOS-ONLY
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}\/?$ https://www.google.com 302
 
 # Google Maps: regional map domains -> maps.google.com, preserving path/query.
-^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/.*)?$ https://maps.google.com$2 302 #!MACOS-ONLY
+^https?:\/\/(ditu|maps)\.google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/.*)?$ https://maps.google.com$2 302
 
 [MITM]
-hostname = %APPEND% www.google.*, google.*, maps.google.*, ditu.google.* #!MACOS-ONLY
+hostname = %APPEND% www.google.*, google.*, maps.google.*, ditu.google.*
