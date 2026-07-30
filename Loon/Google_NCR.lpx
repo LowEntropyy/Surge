@@ -1,0 +1,13 @@
+#!name = Google NCR
+#!desc = 将 Google 所有国家/地区域名重定向至 google.com，覆盖 google.cn/co.jp/com.hk 等全部格式。同时清理搜索 URL 中的追踪参数
+#!author = LowEntropyy
+#!system = iOS,iPadOS,tvOS,macOS
+#!homepage = https://github.com/LowEntropyy/Surge
+#!icon = https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/EssE/Google.png
+
+[Rewrite]
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp)\?[^#]+)$ https://www.google.com$1&gws_rd=cr 302
+^https?:\/\/(?:www\.)?google\.(?!com(?:$|[\/:]))(?:[a-z]{2,3}\.)?[a-z]{2,3}(\/(?:search|webhp))\/?$ https://www.google.com$1?gws_rd=cr 302
+
+[MITM]
+hostname = www.google.*, google.*
