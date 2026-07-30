@@ -1,4 +1,4 @@
-#!name=Google NCR - All Regions
+#!name=Google NCR
 #!desc=将 Google 所有国家/地区域名重定向至 google.com，覆盖 google.cn/co.jp/com.hk 等全部格式。同时清理搜索 URL 中的追踪参数
 
 [URL Rewrite]
