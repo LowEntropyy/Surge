@@ -1,0 +1,87 @@
+name: Dynamic GitHub Pulse
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "5 7 * * *"
+      timezone: "Asia/Kuala_Lumpur"
+    - cron: "35 18 * * *"
+      timezone: "Asia/Kuala_Lumpur"
+    - cron: "35 22 * * *"
+      timezone: "Asia/Kuala_Lumpur"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dynamic-github-pulse
+  cancel-in-progress: true
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve UTC+8 theme
+        id: theme
+        shell: bash
+        run: |
+          now="$(TZ=Asia/Kuala_Lumpur date +%H%M)"
+          hour="${now:0:2}"
+          minute="${now:2:2}"
+          total=$((10#$hour * 60 + 10#$minute))
+
+          if (( total >= 420 && total < 1110 )); then
+            theme="paper"
+          elif (( total >= 1110 && total < 1350 )); then
+            theme="nord"
+          else
+            theme="cyber"
+          fi
+
+          echo "theme=$theme" >> "$GITHUB_OUTPUT"
+          echo "Resolved $theme at $now Asia/Kuala_Lumpur"
+
+      - name: Generate repository pulse
+        uses: pouyashahrdami/github-pulse@dbc543e0690a68c8be41fc4bc37a2bbd8bacab0b
+        with:
+          repo: LowEntropyy/Surge
+          out: pulse.svg
+          theme: ${{ steps.theme.outputs.theme }}
+          size: wide
+          days: "14"
+          params: "w=full&tz=8&label=Surge"
+
+      - name: Publish pulse without touching main
+        shell: bash
+        run: |
+          cp pulse.svg /tmp/pulse.svg
+          rm -f pulse.svg
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin pulse-assets >/dev/null 2>&1; then
+            git fetch origin pulse-assets:pulse-assets
+            git switch pulse-assets
+          else
+            git switch --orphan pulse-assets
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp /tmp/pulse.svg pulse.svg
+          git add pulse.svg
+
+          if git diff --cached --quiet; then
+            echo "Pulse unchanged."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh dynamic GitHub Pulse"
+          git push origin HEAD:pulse-assets
