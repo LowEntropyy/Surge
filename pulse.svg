@@ -15,40 +15,40 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="gp-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M26 0H0V26" fill="none" stroke="rgba(47,212,238,0.09)" stroke-width="1"/>
+      <path d="M26 0H0V26" fill="none" stroke="rgba(196,69,47,0.14)" stroke-width="1"/>
     </pattern>
   </defs>
 
   <rect x="0.5" y="0.5" width="829" height="149"
-        rx="12" fill="#030B10" stroke="rgba(47,212,238,0.09)"/>
+        rx="12" fill="#F6EFE3" stroke="rgba(196,69,47,0.14)"/>
   <rect x="16" y="38" width="798" height="72" fill="url(#gp-grid)" opacity="0.9"/>
 
   <text x="26" y="26" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13"
-        font-weight="600" fill="#D9EEF4">Surge</text>
+        font-weight="600" fill="#2A2118">Surge</text>
 
   <rect x="737.8" y="12" width="66.2" height="19"
-        rx="9.5" fill="none" stroke="#2FD4EE" opacity="0.85"/>
+        rx="9.5" fill="none" stroke="#C4452F" opacity="0.85"/>
   <text x="770.9" y="25" text-anchor="middle"
         font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10" font-weight="600"
-        fill="#2FD4EE" letter-spacing="1">REVIVED</text>
+        fill="#C4452F" letter-spacing="1">REVIVED</text>
   
-  <path d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.3 6 0 h17.1" fill="none" stroke="#2FD4EE" stroke-width="1.6" opacity="0.22"/>
+  <path d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.3 6 0 h17.1" fill="none" stroke="#C4452F" stroke-width="1.6" opacity="0.22"/>
        <path class="gp-sweep" d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.3 6 0 h17.1" pathLength="1000" fill="none"
-             stroke="#2FD4EE" stroke-width="2.2" stroke-linecap="round"
+             stroke="#C4452F" stroke-width="2.2" stroke-linecap="round"
              stroke-dasharray="140 860" filter="url(#gp-glow)"/>
   <text x="800" y="54" text-anchor="end"
               font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="11" font-weight="700"
-              fill="#2FD4EE" filter="url(#gp-glow)">⚡ REVIVED</text>
+              fill="#C4452F" filter="url(#gp-glow)">⚡ REVIVED</text>
   
   <text class="gp-heart" x="26" y="130" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
-        font-size="16" fill="#2FD4EE">♥</text>
+        font-size="16" fill="#C4452F">♥</text>
   <text x="46" y="130" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
-        font-size="22" font-weight="700" fill="#D9EEF4">54<tspan
-        font-size="10" font-weight="400" fill="#7E98A3" dx="4">bpm</tspan></text>
+        font-size="22" font-weight="700" fill="#2A2118">54<tspan
+        font-size="10" font-weight="400" fill="#8A7B67" dx="4">bpm</tspan></text>
   <text x="150" y="128" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
-           font-size="10.5" fill="#7E98A3">⚡ 1d streak  ·  ??+  ·  58 beats/yr</text>
+           font-size="10.5" fill="#8A7B67">⚡ 1d streak  ·  ??+  ·  58 beats/yr</text>
   <text x="804" y="128" text-anchor="end"
-        font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10.5" fill="#2FD4EE"
+        font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10.5" fill="#C4452F"
         >⚡ back from the dead</text>
   
   
