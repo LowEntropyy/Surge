@@ -32,8 +32,8 @@
         font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10" font-weight="600"
         fill="#C4452F" letter-spacing="1">REVIVED</text>
   
-  <path d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.3 6 0 h17.1" fill="none" stroke="#C4452F" stroke-width="1.6" opacity="0.22"/>
-       <path class="gp-sweep" d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.3 6 0 h17.1" pathLength="1000" fill="none"
+  <path d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -11 q3 -3.3 6 0 h17.1" fill="none" stroke="#C4452F" stroke-width="1.6" opacity="0.22"/>
+       <path class="gp-sweep" d="M26 74 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h55.6 h14.5 q3 -0.5 6 0 l2 3 l4 -36 l4 44 l2 -11 q3 -3.3 6 0 h17.1" pathLength="1000" fill="none"
              stroke="#C4452F" stroke-width="2.2" stroke-linecap="round"
              stroke-dasharray="140 860" filter="url(#gp-glow)"/>
   <text x="800" y="54" text-anchor="end"
