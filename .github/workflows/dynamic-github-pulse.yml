@@ -1,8 +1,6 @@
 name: Dynamic GitHub Pulse
 
-# Data correctness and repository-card visual layout stay centralized in
-# LowEntropyy/LowEntropyy. Dense history uses GraphQL cursor pagination; the
-# shared postprocessor applies the full-width ECG + bottom vitals composition.
+# Data correctness and visual composition are centralized in LowEntropyy/LowEntropyy.
 on:
   push:
     branches:
@@ -41,7 +39,7 @@ jobs:
   pulse:
     runs-on: ubuntu-latest
     steps:
-      - name: Run central pulse renderer
+      - name: Run unified pulse renderer
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -54,22 +52,4 @@ jobs:
         run: |
           rm -rf /tmp/pulse-control
           git clone --quiet --depth 1 --branch main https://github.com/LowEntropyy/LowEntropyy.git /tmp/pulse-control
-
-          python3 - <<'PY'
-          from pathlib import Path
-
-          source = Path('/tmp/pulse-control/scripts/render-pulse.sh')
-          target = Path('/tmp/render-repo-pulse.sh')
-          text = source.read_text()
-          needle = 'test -s /tmp/pulse.svg\n'
-          if text.count(needle) != 1:
-              raise SystemExit('expected one pulse SVG verification hook')
-          text = text.replace(
-              needle,
-              needle + 'python3 /tmp/pulse-control/scripts/postprocess-repo-pulse.py /tmp/pulse.svg\n',
-              1,
-          )
-          target.write_text(text)
-          PY
-
-          bash /tmp/render-repo-pulse.sh
+          bash /tmp/pulse-control/scripts/run-pulse.sh
