@@ -25,7 +25,7 @@
   </defs>
 
   <rect x="0.5" y="0.5" width="829" height="259"
-        rx="12" fill="#F6EFE3" stroke="rgba(196,69,47,0.14)"/>
+        rx="12" fill="#f5f5f5" stroke="rgba(196,69,47,0.14)"/>
   <rect x="22" y="42" width="786" height="148" fill="url(#gp-grid)" opacity="0.9" class="gp-grid-pulse"/>
 
   <text x="26" y="32" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13"
