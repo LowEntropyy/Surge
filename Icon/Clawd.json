@@ -1,6 +1,6 @@
 {
   "name": "Clawd",
-  "description": "Clawd 系列静态图标集：适配 Surge / Loon 策略组展示（144×144 透明 PNG）。",
+  "description": "Clawd 系列静态图标集：适配 Surge / Loon 策略组展示（透明底 PNG，等比对齐 EssE 视觉尺寸）。",
   "icons": [
     {
       "name": "Original Clawdster",
