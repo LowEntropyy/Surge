@@ -1,0 +1,30 @@
+{
+  "name": "Clawd",
+  "description": "Clawd 系列静态图标集：适配 Surge / Loon 策略组展示（144×144 透明 PNG）。",
+  "icons": [
+    {
+      "name": "Original Clawdster",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Original_Clawdster.png"
+    },
+    {
+      "name": "Clawd-Cloud-still",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Clawd-Cloud-still.png"
+    },
+    {
+      "name": "Clawd Surfing",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Clawd_Surfing.png"
+    },
+    {
+      "name": "Clawdlock Holmes",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Clawdlock_Holmes.png"
+    },
+    {
+      "name": "Clawdlock Holmes Magnifying",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Clawdlock_Holmes_Magnifying.png"
+    },
+    {
+      "name": "Clawd Deal With It",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Clawd_DealWithIt.png"
+    }
+  ]
+}
