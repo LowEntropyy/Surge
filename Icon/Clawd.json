@@ -3,6 +3,22 @@
   "description": "Clawd 系列静态图标集：适配 Surge / Loon 策略组展示（透明底 PNG，等比对齐 EssE 视觉尺寸）。",
   "icons": [
     {
+      "name": "Anthropic 01",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Anthropic_01.png"
+    },
+    {
+      "name": "Anthropic 02",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Anthropic_02.png"
+    },
+    {
+      "name": "Anthropic 03",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Anthropic_03.png"
+    },
+    {
+      "name": "Claude Original",
+      "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Claude_Original.png"
+    },
+    {
       "name": "Original Clawdster",
       "url": "https://raw.githubusercontent.com/LowEntropyy/Surge/main/Icon/Clawd/Original_Clawdster.png"
     },
