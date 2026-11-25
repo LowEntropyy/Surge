@@ -1,0 +1,15 @@
+#!name=Tailscale 共存（仅 Mac）
+#!desc=排除 Tailscale 私有网段与后缀，避免与 Surge Mac 增强模式冲突。升级至 Surge Mac 6.11+ 并使用原生 Tailscale 策略（allow-peer-access）后无需启用本模块
+#!system=mac
+
+# 说明：
+# 1. 仅在使用独立官方 Tailscale.app 且同时开启 Surge Mac 增强模式时启用；
+# 2. 升级至 Surge Mac 6.11+ 并使用 Surge 原生 [Tailscale] 策略（allow-peer-access = true）后，不再需要独立 Tailscale.app 与本共存模块。
+
+[General]
+tun-excluded-routes = %APPEND% 100.64.0.0/10, fd7a:115c:a1e0::/48
+skip-proxy = %APPEND% 100.64.0.0/10, fd7a:115c:a1e0::/48, *.ts.net
+
+[Rule]
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+IP-CIDR6,fd7a:115c:a1e0::/48,DIRECT,no-resolve
